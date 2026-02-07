@@ -2,30 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register | Gym Management System</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Register | GymFit</title>
+    <link rel="stylesheet" href="auth.css">
 </head>
 <body>
 
-    <h1>Gym / Fitness Center Management System</h1>
+<div class="auth-box">
     <h2>Register</h2>
 
-   <form action="home.html" onsubmit="return registerValidation()">
-
-        <label>Username / Email:</label><br>
-        <input type="text" id="register-username" required><br><br>
-
-        <label>Password:</label><br>
-        <input type="password" id="register-password" required><br><br>
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Confirm Password" required>
 
         <button type="submit">Register</button>
     </form>
 
-    <p>Already have an account?  
-        <a href="login.html">Login Here</a>
+    <p>Already have an account?
+        <a href="login.html" target="_blank">Login</a>
     </p>
+</div>
 
 </body>
 </html>
-
